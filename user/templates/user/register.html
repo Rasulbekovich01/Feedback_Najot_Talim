@@ -1,0 +1,98 @@
+{% load static %}
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Register | Najot Ta'lim - Feedback site </title>
+    <link rel="shortcut icon" type="ico" href="{% static 'user/files/images/favicon.ico' %}"/>
+    <link rel="stylesheet" href="{% static 'user/css/auth/register/style.css' %}">
+    <!-- CSS FILES -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <link href="{% static 'user/css/bootstrap/bootstrap.min.css' %}" rel="stylesheet">
+
+    <link href="{% static 'user/css/bootstrap/bootstrap-icons.css' %}" rel="stylesheet">
+
+    <link href="{% static 'user/css/bootstrap/templatemo-ebook-landing.css' %}" rel="stylesheet">
+
+    <link rel="icon" href="{% static 'user/files/images/favicon.ico' %}" type="image/x-icon">
+</head>
+
+<body>
+
+<!--  Body Wrapper -->
+
+<div class="parent-div">
+    <div class="main-div">
+        <div class="main-logo">
+            <a href="../../../index.html" style="color: #000000">
+                <img src="{% static 'user/files/images/logo.png' %}" alt="404" class="logo-style">
+                Najot Ta'lim Feedback
+            </a>
+        </div>
+        <div class="form-items">
+            <div class="register-animation">
+
+                <dotlottie-player src="https://lottie.host/a7f57d08-f75c-4eb8-b666-074b9d363f86/2M5nHp6gNm.json"
+                                  background="transparent" speed="1" style="width: 400px; height: 500px;" loop
+                                  autoplay></dotlottie-player>
+
+            </div>
+            <div class="register-form">
+                <div class="col-lg-12 col-12 mx-auto">
+                    <form class="custom-form" action="#" method="post" role="form">
+                        <div class="text-center mb-5">
+                            <p class="mb-1" style="text-align: end">Welcome to <h6 style="text-align: end"><b>Najot
+                            Ta'lim Feedback</b></h6></p>
+                        </div>
+                        <div>
+                            <p style="text-align: start"><b>Register</b></p>
+
+                            <form method="post">
+                                {% csrf_token %}
+                                <label for="register-email">Email:</label>
+                                <input type="email" id="register-email" name="email" required>
+
+                                <label for="register-username">Username:</label>
+                                <input type="text" id="register-username" name="username">
+
+                                <label for="register-password">Password:</label>
+                                <input type="password" id="register-password" name="password" required>
+
+                                <label for="register-password">Confirm Password:</label>
+                                <input type="password" id="register-password" name="confirm_password" required>
+
+                                <button type="submit">Register</button>
+
+                                <div id="register-error" class="error-message"></div>
+                            </form>
+
+                            <div style="padding-top: 10px; text-align: center">
+                                <p style="font-size: 13px">Do you have an account? <a href="{% url 'login_page' %}">Log
+                                    in</a>
+                                </p>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--  Body Wrapper -->
+
+<!--SCRIPT-->
+<script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs"
+        type="module"></script>
+
+<!--SCRIPT-->
+</body>
+
+</html>

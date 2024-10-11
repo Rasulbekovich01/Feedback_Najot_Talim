@@ -1,0 +1,89 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comments Section</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f9fa;
+            margin: 0;
+            padding: 0;
+        }
+        .comments-section {
+            max-width: 800px;
+            margin: 50px auto;
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+        .comment {
+            border-bottom: 1px solid #e9ecef;
+            padding: 15px 0;
+        }
+        .comment:last-child {
+            border-bottom: none;
+        }
+        .comment h5 {
+            margin: 0;
+            color: #007bff;
+        }
+        .comment p {
+            margin: 5px 0 0;
+            color: #333;
+        }
+        .comment time {
+            font-size: 0.9em;
+            color: #777;
+        }
+        .comment-form {
+            margin-top: 20px;
+        }
+        .comment-form textarea {
+            width: 100%;
+            padding: 10px;
+            border-radius: 5px;
+            border: 1px solid #ddd;
+            resize: none;
+        }
+        .comment-form button {
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .comment-form button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="comments-section">
+        <h2>Comments</h2>
+        <div class="comment">
+            <h5>Jane Doe <time datetime="2024-10-11">October 11, 2024</time></h5>
+            <p>This is a great platform for sharing feedback!</p>
+        </div>
+        <div class="comment">
+            <h5>John Smith <time datetime="2024-10-10">October 10, 2024</time></h5>
+            <p>I found the offers very helpful and easy to use.</p>
+        </div>
+
+        <div class="comment-form">
+            <h4>Leave a Comment</h4>
+            <textarea rows="4" placeholder="Write your comment here..."></textarea>
+            <button type="submit">Post Comment</button>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.7/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

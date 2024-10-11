@@ -1,0 +1,201 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+2&display=swap");
+// colors
+$main-green: #79dd09 !default;
+$main-green-rgb-015: rgba(121, 221, 9, 0.1) !default;
+$main-yellow: #bdbb49 !default;
+$main-yellow-rgb-015: rgba(189, 187, 73, 0.1) !default;
+$main-red: #bd150b !default;
+$main-red-rgb-015: rgba(189, 21, 11, 0.1) !default;
+$main-blue: #0076bd !default;
+$main-blue-rgb-015: rgba(0, 118, 189, 0.1) !default;
+//$main-color: #ff7500 !default;
+$main-yell-rgb-015: #ff7500 !default;
+$main-yell-rgb-016: #e86e0c !default;
+/* card styles */
+
+.card {
+  background: #fff;
+  border-radius: 22px !important;
+  box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.5);
+  max-width: 400px;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+}
+
+.card a {
+  color: #000000;
+  margin: 0;
+  padding: 0 1rem;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.card .title {
+  padding: 1rem;
+  text-align: right;
+  color: $main-yell-rgb-016 !important;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.card .desc {
+  padding: 0.5rem 1rem;
+  font-size: 12px;
+}
+
+.card .actions {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 0.2fr);
+  padding: 0.5rem 1rem;
+  text-align: right !important;
+  position: relative;
+  right: -9em;
+
+  i {
+    width: max-content;
+    font-size: 16px;
+    font-weight: bold;
+    transition: 0.5s;
+    color: $main-yell-rgb-015 !important;
+    cursor: pointer;
+    padding-left: 5px;
+  }
+
+  i:hover {
+    color: $main-yell-rgb-016;
+    transform: rotate(22deg);
+  }
+}
+
+.img-avatar {
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  border-radius: 50%;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  background-image: linear-gradient(-60deg, $main-yell-rgb-015 0%, $main-green-rgb-015 100%);
+  top: -20px;
+  left: -20px;
+  padding: 5px;
+
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+.title-total {
+  padding: 1em 1.5em 1.5em 1.5em;
+}
+
+path {
+  fill: white;
+}
+
+.card button {
+  border: none;
+  background: none;
+  font-size: 24px;
+  color: $main-yell-rgb-015 !important;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.card button:hover {
+  color: $main-yell-rgb-016;
+  transform: rotate(22deg);
+}
+
+#button-container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: end;
+  text-align: end !important;
+
+}
+#button-container .select-category {
+  margin-right: 15px;
+}
+#button-container .select-category select {
+  cursor: pointer;
+}
+
+#button-container .input-group {
+  width: auto;
+  margin-top: 25px;
+}
+
+#button-container .input-group form {
+  display: flex;
+  justify-content: flex-end;
+  align-items: end;
+  margin: 0;
+}
+#button-container .input-group input {
+  margin-right: 10px;
+}
+
+
+// card paginator styles
+
+#pagination {
+  text-align: end !important;
+}
+
+#pagination button {
+  border: none;
+  color: $main-yell-rgb-015 !important;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#page-info {
+  font-size: 14px !important;
+  color: gray;
+}
+
+// end card paginator styles
+
+// end card styles
+
+//navbar
+.navbar {
+  background-color: rgba(0, 0, 0, 0.65) !important;
+}
+
+//footer
+
+.copyright {
+  padding: 28px 0;
+  margin-top: 55px;
+  background-color: #202020;
+}
+
+.copyright span,
+.copyright a {
+  color: #878787;
+  -webkit-transition: all 0.3s linear;
+  -o-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  font-size: 14px;
+}
+
+.copyright a:hover {
+  color: #007bff;
+}
+
+.copyright-menu ul {
+  text-align: right;
+  margin: 0;
+}
+
+.copyright-menu li {
+  display: inline-block;
+  padding-left: 20px;
+}
+

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- ... (head content) ... -->
+</head>
+<body>
+    <h1>{% trans "user" %}</h1>
+    <ul>
+        {% for user in user_list %}
+            <li>
+                {{ user.content }} 
+                {% if not user.is_anonymous %}
+                    - by {{ user.user.username }}
+                {% endif %}
+            </li>
+        {% endfor %}
+    </ul>
+
+    <a href="{% url 'user:user_add' %}" class="btn btn-primary">{% trans "Add user" %}</a>
+</body>
+</html>

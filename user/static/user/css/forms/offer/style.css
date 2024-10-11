@@ -1,0 +1,97 @@
+.form-title {
+    color: #ED8936FF;
+}
+
+.form-offer {
+    width: 65%;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 50px auto;
+    height: 26em;
+    position: relative;
+    top: 120px;
+}
+
+.btn-primary {
+    background-color: #ED8936FF;
+    border-color: #ED8936FF;
+}
+
+.btn-primary:hover {
+    background-color: #ff7500;
+    border-color: #ff7500;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn-group .btn {
+    margin-right: 5px;
+    background-color: #f2f2f2;
+    border-color: #f2f2f2;
+    color: #333;
+}
+
+
+.active[type="button"] {
+    background-color: #ED8936FF !important;
+    border-color: #ED8936FF !important;
+    color: white;
+}
+
+.animation-offer-form .animation-offer {
+    margin: auto;
+    width: 50%;
+    height: auto;
+}
+
+.animation-offer {
+    width: 300px !important;
+    height: auto;
+    margin: auto;
+    position: relative;
+    top: 25px;
+}
+
+.back-home {
+    background: #ffffff;
+    color: #ED8936FF;
+    border: none;
+    position: absolute;
+    top: 0;
+    right: 20px;
+}
+
+.back-home:hover {
+    background: #ED8936FF;
+    color: #ffffff;
+    transition: all 0.3s ease-in-out;
+}
+
+.back-home:active {
+    background: #ED8936FF;
+    color: #ffffff;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 0 5px rgb(255, 117, 0);
+}
+
+.back-home:focus {
+    outline: none;
+    background: #ED8936FF;
+    color: #ffffff;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 0 5px rgb(255, 117, 0);
+}
+
+@media (max-width: 768px) {
+    .form-offer {
+        box-shadow: none;
+        top: 0;
+    }
+}
+
+@media (max-width: 1024px) {
+    .form-offer {
+        width: 92%;
+    }
+}

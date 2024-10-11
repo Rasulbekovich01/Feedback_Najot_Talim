@@ -1,0 +1,66 @@
+.main-div {
+    width: 60%;
+    height: auto;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius: 8px;
+    margin: auto;
+    position: absolute;
+    top: 10%;
+    right: 20%;
+    padding: 25px 30px;
+}
+
+.main-logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo-style {
+    width: 50px;
+}
+
+.register-form {
+    width: 40%;
+    position: absolute;
+    right: 25px;
+}
+
+.form-items {
+    display: flex;
+}
+
+.register-form-input {
+    font-size: 14px !important;
+}
+
+@media screen and (max-width: 780px) {
+    .main-div {
+        width: 80% !important;
+        height: auto;
+        position: absolute;
+        left: 10%;
+        box-shadow: none;
+    }
+
+}
+
+@media screen and (max-width: 1290px) {
+    .main-div {
+        width: 90%;
+        right: 5%;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .main-div {
+        height: 80%;
+    }
+
+    .register-animation {
+        display: none;
+    }
+
+    .register-form {
+        width: 90%;
+    }
+}

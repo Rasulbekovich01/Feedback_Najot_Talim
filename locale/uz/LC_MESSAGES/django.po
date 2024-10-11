@@ -1,0 +1,207 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-10-26 18:39+0000\n"
+"PO-Revision-Date: 2023-10-26 18:39+0000\n"
+"Last-Translator: Your Name <your@email.com>\n"
+"Language-Team: Uzbek <uzbek@example.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: templates/index.html:6
+msgid "Najot Ta'lim - Feedback site"
+msgstr "Najot Ta'lim - Fikr-mulohazalar sayti"
+
+#: templates/index.html:32
+msgid "Log in"
+msgstr "Kirish"
+
+#: templates/index.html:50
+msgid "Home"
+msgstr "Bosh sahifa"
+
+#: templates/index.html:56
+msgid "Problems"
+msgstr "Muammolar"
+
+#: templates/index.html:62
+msgid "Offers"
+msgstr "Takliflar"
+
+#: templates/index.html:68
+msgid "Comments"
+msgstr "Izoh"
+
+#: templates/index.html:74
+msgid "404"
+msgstr "404"
+
+#: templates/index.html:82
+msgid "English"
+msgstr "Ingliz"
+
+#: templates/index.html:86
+msgid "Uzbek"
+msgstr "O'zbek"
+
+#: templates/index.html:90
+msgid "Rus"
+msgstr "Rus"
+
+#: templates/index.html:100
+msgid "Log in"
+msgstr "Kirish"
+
+#: templates/index.html:118
+msgid "Exchange of ideas"
+msgstr "G'oyalar almashinuvi"
+
+#: templates/index.html:122
+msgid "Online platform for requests and offers"
+msgstr "So'rov va takliflar uchun onlayn platforma"
+
+#: templates/index.html:128
+msgid "Problems"
+msgstr "Muammolar"
+
+#: templates/index.html:132
+msgid "Make an offer"
+msgstr "Taklif qilish"
+
+#: templates/index.html:161
+msgid "Brief information about the site"
+msgstr "Sayt haqida qisqacha ma'lumot"
+
+#: templates/index.html:167
+msgid "Najot Ta'lim Feedback"
+msgstr "Najot Ta'lim Fikr-mulohazalar"
+
+#: templates/index.html:174
+msgid "The Najot Ta'lim Feedback Site is designed to collect and analyze feedback on services, classes, and overall experiences at the Najot Ta'lim educational center. The site allows students and their parents to identify strengths and areas for improvement at the center. Feedback is gathered through an online form, enhancing transparency and openness. The collected feedback is used to improve services and introduce new opportunities. The site also showcases the center’s achievements and successes, providing inspiration and strengthening its image."
+msgstr "Najot Ta'lim Fikr-mulohazalar sayti Najot Ta'lim ta'lim markazida taqdim etilayotgan xizmatlar, darslar va umumiy tajribalar haqida fikr-mulohazalarni to'plash va tahlil qilish uchun mo'ljallangan. Sayt o'quvchilar va ota-onalarga markazning kuchli tomonlarini va yaxshilanish uchun imkoniyatlarni aniqlashga imkon beradi. Fikr-mulohazalar onlayn shakl orqali to'planadi, bu shaffoflik va ochiqlikni oshiradi. Yig'ilgan fikr-mulohazalar xizmatlarni yaxshilash va yangi imkoniyatlarni joriy etish uchun ishlatiladi. Sayt shuningdek, markazning yutuqlari va muvaffaqiyatlarini namoyish etadi, bu ilhomlantiradi va uning imidjini mustahkamlaydi."
+
+#: templates/index.html:202
+msgid "Questions - Answers"
+msgstr "Savol-javoblar"
+
+#: templates/index.html:206
+msgid "Frequently asked questions"
+msgstr "Tez-tez beriladigan savollar"
+
+#: templates/index.html:216
+msgid "Question 1:  How can I submit feedback?"
+msgstr "Savol 1:  Fikr-mulohaza qanday qilib berishim mumkin?"
+
+#: templates/index.html:222
+msgid "Question 2:  How is feedback processed and what results are published?"
+msgstr "Savol 2:  Fikr-mulohazalar qanday qilib qayta ishlanadi va qanday natijalar e'lon qilinadi?"
+
+#: templates/index.html:228
+msgid "Question 3:  Is my feedback anonymous?"
+msgstr "Savol 3:  Mening fikr-mulohazam anonimmi?"
+
+#: templates/index.html:234
+msgid "Question 4:  Can I participate in discussions on the site?"
+msgstr "Savol 4:  Saytda muhokamalarga qatnashishim mumkinmi?"
+
+#: templates/index.html:240
+msgid "Question 5:  What topics can be discussed in the forums?"
+msgstr "Savol 5:  Forumlarda qanday mavzular muhokama qilinishi mumkin?"
+
+#: templates/index.html:251
+msgid "You can submit feedback using the online form available on our site. Simply fill out the required sections and submit your comments. Anonymity is an option if you prefer."
+msgstr "Siz saytimizda mavjud bo'lgan onlayn shakl yordamida fikr-mulohaza berishingiz mumkin. Kerakli bo'limlarni to'ldiring va izohingizni yuboring. Agar xohlasangiz, anonimlik imkoniyati mavjud."
+
+#: templates/index.html:262
+msgid "Feedback is regularly analyzed. Monthly or quarterly reports summarizing general trends and improvements are published on our site. Individual feedback responses are not provided, but general responses and discussion outcomes are shared."
+msgstr "Fikr-mulohazalar muntazam ravishda tahlil qilinadi. Umumiy tendentsiyalar va yaxshilanishlarni umumlashtirgan oylik yoki choraklik hisobotlar saytimizda e'lon qilinadi. Shaxsiy fikr-mulohazalarga javoblar berilmaydi, ammo umumiy javoblar va muhokama natijalari baham ko'riladi."
+
+#: templates/index.html:275
+msgid "Yes, you can submit feedback anonymously. Your personal information will not be disclosed, but your feedback will be used for general analysis."
+msgstr "Ha, siz fikr-mulohazangizni anonim ravishda berishingiz mumkin. Shaxsiy ma'lumotlaringiz oshkor qilinmaydi, lekin fikr-mulohazangiz umumiy tahlil uchun ishlatiladi."
+
+#: templates/index.html:287
+msgid "Yes, the site includes a discussion forum where you can engage with other users. You can exchange opinions, discuss feedback, and participate in conversations on various topics."
+msgstr "Ha, saytda boshqa foydalanuvchilar bilan muloqot qilishingiz mumkin bo'lgan muhokama forumi mavjud. Siz fikrlar almashishingiz, fikr-mulohazalarni muhokama qilishingiz va turli mavzular bo'yicha suhbatlarga qatnashishingiz mumkin."
+
+#: templates/index.html:299
+msgid "The forums cover topics such as services, educational processes, teachers, classes, and other aspects of the educational center’s activities. You can share your opinions and engage in discussions with other users on these topics."
+msgstr "Forumlar xizmatlar, ta'lim jarayoni, o'qituvchilar, darslar va ta'lim markazining faoliyatining boshqa jihatlari kabi mavzularni qamrab oladi. Siz ushbu mavzular bo'yicha fikrlaringizni baham ko'rishingiz va boshqa foydalanuvchilar bilan muhokamalarga qatnashishingiz mumkin."
+
+#: templates/index.html:316
+msgid "Team"
+msgstr "Jamoa"
+
+#: templates/index.html:320
+msgid "About the participants in the team"
+msgstr "Jamoa ishtirokchilari haqida"
+
+#: templates/index.html:338
+msgid "The founder of the project"
+msgstr "Loyihaning asoschisi"
+
+#: templates/index.html:344
+msgid "Sanjarbek Tursunov"
+msgstr "Sanjarbek Tursunov"
+
+#: templates/index.html:351
+msgid "Sanjarbek Tursunov is the founder of Najot Ta'lim Feedback. He has extensive experience in enhancing educational center services and developing feedback systems. Sanjarbek Tursunov is dedicated to meeting students' needs and improving service quality by implementing feedback and discussion platforms."
+msgstr "Sanjarbek Tursunov Najot Ta'lim Fikr-mulohazalarining asoschisi. U ta'lim markazlarining xizmatlarini yaxshilash va fikr-mulohazalar tizimlarini ishlab chiqishda katta tajribaga ega. Sanjarbek Tursunov o'quvchilarning ehtiyojlarini qondirish va fikr-mulohazalar va muhokama platformalarini joriy qilish orqali xizmat sifatini yaxshilashga bag'ishlangan."
+
+#: templates/index.html:376
+msgid "Frontend Developer for the project"
+msgstr "Loyihaning Frontend dasturchisi"
+
+#: templates/index.html:382
+msgid "A'lamov Asadbek"
+msgstr "A'lamov Asadbek"
+
+#: templates/index.html:389
+msgid "Hello! I’m Asadbek, a 20-year-old Frontend and Python developer. With 1 year of experience in Frontend development, I’m passionate about creating innovative solutions and delivering high-quality user experiences. I also work with Python to build efficient and scalable applications."
+msgstr "Salom! Men Asadbekman, 20 yoshli Frontend va Python dasturchiman. Frontend rivojlanishda 1 yillik tajribam bilan, men innovatsion echimlar yaratish va yuqori sifatli foydalanuvchi tajribasini taqdim etishga qiziqaman. Men shuningdek, samarali va o'lchovli dasturlarni yaratish uchun Python bilan ishlayman."
+
+#: templates/index.html:412
+msgid "Appeals"
+msgstr "Murojaatlar"
+
+#: templates/index.html:416
+msgid "Best offers"
+msgstr "Eng yaxshi takliflar"
+
+#: templates/index.html:434
+msgid "Student"
+msgstr "Talaba"
+
+#: templates/index.html:455
+msgid "Yaqinda o‘tgan imtihonlarda savollar juda qiyin bo‘ldi. Ko‘plab savollar darslarda o‘rgangan materiallardan ancha farq qilardi va ular bilan qanday ishlashni bilmasdim. Savollar murakkab va darsda berilgan tushunchalardan chetga chiqib ketgan edi. Savollarni yanada aniqroq va darsda o‘rgangan materiallarga mos bo‘lishini xohlayman"
+msgstr "Yaqin vaqtlarda o'tkazilgan imtihonlarda savollar juda qiyin bo'ldi. Ko'plab savollar darslarda o'rganilgan materiallardan ancha farq qilardi va ular bilan qanday ishlashni bilmasdim. Savollar murakkab va darsda berilgan tushunchalardan chetga chiqib ketgan edi. Savollarni yanada aniqroq va darsda o'rganilgan materiallarga mos bo'lishini xohlayman."
+
+#: templates/index.html:495
+msgid "Men Python darslarida o‘qituvchining izohlarini tushunmayapman. Ularning darsni tushuntirish usuli juda tez va ko‘p ma'lumotlarni bir vaqtning o‘zida beradi. Bu menga darslarni yaxshiroq o‘zlashtirishimga to‘sqinlik qilmoqda. Agar darslarni sekinroq va batafsilroq tushuntirishsa, ancha yordam bo‘lardi."
+msgstr "Men Python darslarida o'qituvchining izohlarini tushunmayapman. Ularning darsni tushuntirish usuli juda tez va ko'p ma'lumotlarni bir vaqtning o'zida beradi. Bu menga darslarni yaxshiroq o'zlashtirishimga to'sqinlik qilmoqda. Agar darslarni sekinroq va batafsilroq tushuntirishsa, ancha yordam bo'lardi."
+
+#: templates/index.html:535
+msgid "Yaqinda darslarni yanada interaktiv va amaliy bo‘lishini xohlayman. Ko‘proq misollar va mashqlar bilan dars o'tilsa, o‘rganishim osonroq bo‘ladi. Bundan tashqari, onlayn resurslar va qo‘shimcha materiallar ham mavjud bo‘lishi kerak, shunda darslardan tashqari qo‘shimcha o‘rganish imkoniyatlarimiz ko‘proq bo‘ladi."
+msgstr "Yaqin vaqtlarda darslarni yanada interaktiv va amaliy bo'lishini xohlayman. Ko'proq misollar va mashqlar bilan dars o'tilsa, o'rganishim osonroq bo'ladi. Bundan tashqari, onlayn resurslar va qo'shimcha materiallar ham mavjud bo'lishi kerak, shunda darslardan tashqari qo'shimcha o'rganish imkoniyatlarimiz ko'proq bo'ladi."
+
+#: templates/index.html:593
+msgid "Copyright © 2024, All Right Reserved Najot Ta'lim Feedback"
+msgstr "Copyright © 2024, Barcha huquqlar himoyalangan Najot Ta'lim Fikr-mulohazalar"
+
+#: templates/index.html:599
+msgid "Home"
+msgstr "Bosh sahifa"
+
+#: templates/index.html:603
+msgid "Terms"
+msgstr "Shartlar"
+
+#: templates/index.html:607
+msgid "Privacy Policy"
+msgstr "Maxsfiylik siyosati"
+
+#: templates/index.html:611
+msgid "Contact"
+msgstr "Aloqa"

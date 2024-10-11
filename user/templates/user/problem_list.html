@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- ... (head content) ... -->
+</head>
+<body>
+    <h1>{% trans "Problems" %}</h1>
+    <ul>
+        {% for problem in problem_list %}
+            <li>
+                <a href="{% url 'user:problem_detail' problem.id %}">{{ problem.title }}</a> 
+                - by {{ problem.user.username }}
+            </li>
+        {% endfor %}
+    </ul>
+
+    <a href="{% url 'user:problem_add' %}" class="btn btn-primary">{% trans "Add Problem" %}</a>
+</body>
+</html>

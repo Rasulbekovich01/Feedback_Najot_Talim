@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- ... (head content) ... -->
+</head>
+<body>
+    <h2>{{ problem.title }}</h2>
+    <p>{{ problem.description }}</p>
+    <p>By: {{ problem.user.username }}</p>
+    <p>Created: {{ problem.created_at }}</p>
+    
+    <h3>Offers</h3>
+    <ul>
+        {% for offer in problem.offer_set.all %}
+            <li>
+                {{ offer.description }}
+                - by {{ offer.user.username }}
+                <br>
+                <a href="{% url 'user:comment_add' offer.id %}">{% trans "Add Comment" %}</a>
+                <ul>
+                    {% for comment in offer.comment_set.all %}
+                        <li>{{ comment.content }} - by {{ comment.user.username }}</li>
+                    {% endfor %}
+                </ul>
+            </li>
+        {% endfor %}
+    </ul>
+
+    <a href="{% url 'user:offer_add' problem.id %}" class="btn btn-primary">{% trans "Add Offer" %}</a>
+</body>
+</html>
