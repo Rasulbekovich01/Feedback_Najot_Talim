@@ -111,8 +111,8 @@ AUTH_PASSWORD_VALIDATORS = [
 LANGUAGE_CODE = 'en'
 
 LANGUAGES = (
-    ('en'='English'),
-    ('uz' = 'Uzbek')
+    ('en'=='English'),
+    ('uz' == 'Uzbek')
 )
 
 
